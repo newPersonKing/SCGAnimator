@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:valueType="floatType"
+    android:propertyName="trimPathStart"
+    android:valueFrom="1"
+    android:valueTo="0"
+    android:duration="1000"
+    android:interpolator="@android:interpolator/linear_out_slow_in">
+    <!--trimPathStart 表示不显示的百分比 trimPathEnd 表示显示的百分比-->
+    <!--从看不见   到 完全显示-->
+</objectAnimator>
